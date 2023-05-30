@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #4f4f4f;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main.container {
+    width: 100%;
+    height: calc(100% - 66px - 32px);
+}
+
+footer.container {
+    background-color: #4f4f4f;
+    padding: 6px 0;
+    color: white;
+}
+
+.blog-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.posts-container {
+    width: 100%;
+    height: 70%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;       
+    align-items: center;
+}
+
+.post-link {
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+.post-link:hover {
+    text-decoration: underline;
+}
